@@ -1,0 +1,337 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+body{
+	background-color: #00296B;
+	font-family: 'Josefin Sans', sans-serif;
+}
+#wrap{
+	width: 100%;
+	height: 50px;
+	background: #00509D;
+}
+.cont{
+	position: relative;
+}
+.head{
+	width: 100%;
+	display: flex;
+	position: absolute;
+}
+.logo{
+	line-height: 50px;
+	float: left;
+}
+.logo a{
+	text-decoration: none;
+}
+.logo a p1{
+	color: #FFF3F0;
+	font-size: 25px;
+	font-weight: bold;
+}
+.logo p1:hover{
+	color: #FFD500;
+}
+.menu{
+	display: flex;
+	width: 100%;
+	position: absolute;
+	left: 750px;
+	line-height: 50px;
+}
+.menu a{
+	text-decoration: none;
+}
+.menu p2, p3, p4{
+	color: aliceblue;
+	padding: 0 50px;
+	font-size: 20px;
+	font-weight: normal;
+}
+.menu p4:hover{
+	color: #00296B;
+	font-weight: bold;
+}
+.menu p2:hover{
+	color: #FFD500;
+}
+.menu p3:hover{
+	color: #FFD500;
+}
+.avt{
+	position: absolute;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.avatar{
+	width: 40%;
+	padding: 100px 0;
+}	
+.avatar img{
+	width: 100%;
+}
+.cont1{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 620px 0 0;
+}
+.cont1 p5, p6, p7{
+	font-size: 20px;
+	color: #FFBF00;
+}
+.cont1 p5:hover{
+	color: #FA7921;
+}
+.cont1 p6:hover{
+	color: #FA7921;
+}
+.cont1 p7:hover{
+	color: #FA7921;
+}
+.cont1 a{
+	text-decoration: none;
+}
+.gif{
+	display: flex;
+	background: url(Pattern.gif);
+	background-repeat: repeat;
+	width: 100%;
+	height: 868px;
+	position: absolute;
+	top: 800px;
+}
+.des{
+	position: absolute;
+	top: 1200px;
+	left: 600px;
+	padding: 50px;
+	background: #FDC500;
+}
+.des p8{
+	font-size: 40px;
+	color: #00509D;
+	
+}
+.des p8:hover{
+	color: #FFD500;
+}
+.skill{
+	width: 100%;
+	height: 600px;
+	position: absolute;
+	top: 1000px;
+	display: flex;
+}
+.s1{
+	width: 30%;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	top: 0px;
+	background: #FFD500;
+}
+.s2{
+	width: 30%;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	top: 0px;
+	background: #ECA400;
+}
+.s3{
+	width: 30%;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	top: 0px;
+	background: #FB8B24;
+}
+table{
+	width: 100%;
+	height: 400px;
+	text-align: center;
+	border: dashed 15px #FFF3F0 ;
+}
+.ai img{
+	width: 150px;
+}
+.ps img{
+	width: 150px;
+}
+.ind img{
+	width: 150px;
+}
+p9{
+	color: #00509D;
+	font-size: 30px;
+}
+p10{
+	color: #003F88;
+	font-size: 30px;
+}
+p11{
+	color: #00296B;
+	font-size: 30px;
+}
+.sec4{
+	width: 100%;
+	height: 940px;
+	background: #FFF3F0;
+	position: absolute;
+	top: 1650px;
+	display: flex;
+}
+.ep1{
+	width: 100%;
+	padding: 50px;
+}
+.ep1 img{
+	width: 100%;
+}
+.inf1{
+	width: 100%;
+	position: absolute;
+	top: 300px;
+	left: 750px;
+}
+.manip{
+	padding: 50px 0 5px;
+}
+p12{
+	color: #00296B;
+	font-size: 40px;
+	background: #FDC500;
+	padding: 15px 10px 5px; 
+}
+p12:hover{
+	color: #FFF3F0;
+}
+.pos{
+	padding: 10px 0;
+}
+.pos a{
+	text-decoration: none;
+}
+p13{
+	color: #00296B;
+	font-size: 60px;
+}
+p13:hover{
+	color: #FDC500;
+}
+.sec5{
+	width: 100%;
+	height: 630px;
+	background: #FFF3F0;
+	position: absolute;
+	top: 2680px;
+	display: flex;
+}
+.ep2{
+	width: 100%;
+	padding: 50px 10px 0 0;
+}
+.ep2 img{
+	width: 90%;
+}
+.inf2{
+	width: 100%;
+	position: absolute;
+	top: 200px;
+	left: 55px;
+}
+.dig{
+	padding: 50px 0 5px;
+}
+p14{
+	color: #00296B;
+	font-size: 40px;
+	background: #FDC500;
+	padding: 15px 10px 5px; 
+}
+p14:hover{
+	color: #FFF3F0;
+}
+.char{
+	padding: 10px 0;
+}
+.char a{
+	text-decoration: none;
+}
+p15{
+	color: #00296B;
+	font-size: 60px;
+}
+p15:hover{
+	color: #FDC500;
+}
+.end{
+	width: 100%;
+	background: #FFD500;
+	height: 130px;
+	top: 4250px;
+	position: absolute;
+	padding: 70px 0;
+}
+.cont2{
+	width: 100%;
+	background: #FFF3F0;
+}
+.cont2 a{
+	text-decoration: none;
+}
+p16, p17, p18{
+	color: #00296B;
+	font-size: 30px;
+}
+.cont2 h3{
+	color: #003F88;
+	font-size: 20px;
+}
+p16:hover{
+	color: #ECA400;
+}
+p17:hover{
+	color: #ECA400;
+}
+p18:hover{
+	color: #ECA400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
